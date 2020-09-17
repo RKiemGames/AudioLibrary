@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "TextureButton",
+"class": "CustomTextureButton",
+"language": "GDScript",
+"path": "res://src/texture_button.gd"
+} ]
+_global_script_class_icons={
+"CustomTextureButton": ""
+}
+
+[application]
+
+config/name="AudioLibrary"
+config/icon="res://icon.png"
+
+[autoload]
+
+AudioLibrary="*res://scenes/audio_library.tscn"
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"
