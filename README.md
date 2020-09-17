@@ -1,2 +1,2 @@
 # AudioLibrary
-An example audio library singleton for Godot projects.
+An audio library singleton example for Godot projects.
