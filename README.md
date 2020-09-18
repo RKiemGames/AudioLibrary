@@ -12,4 +12,4 @@ AudioLibrary.play(sample_name, 'character/enemy') # for character/enemy path dir
 
 In **scenes/audio_library.tscn** you can configuring all AudioStreamPlayers that you need.
 
-**scenes/main.tscn** is an example that uses a custom TextureButon that plays jump sound on pressed.
+**scenes/main.tscn** is an example that uses a custom TextureButton that plays jump sound on pressed.
