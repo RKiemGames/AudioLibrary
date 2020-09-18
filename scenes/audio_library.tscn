@@ -7,6 +7,9 @@
 script = ExtResource( 2 )
 
 [node name="default" type="Node" parent="."]
+__meta__ = {
+"_editor_description_": "A directory to organize audios"
+}
 
 [node name="jump" type="AudioStreamPlayer" parent="default"]
 stream = ExtResource( 1 )
